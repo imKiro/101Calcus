@@ -20,19 +20,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .AppTittle{
   margin-top: 45px;
   margin-bottom: 0px;
@@ -50,7 +37,7 @@
     text-decoration: none;
     padding: 15px 40px;
     border-radius: 100px;
-    background-color: #D6EEFF;
+    background-color: #a1d2f6;
     color: #39393A;
     width: 230px;
     font-size: 24px;
