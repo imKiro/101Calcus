@@ -13,8 +13,8 @@ function App() {
         <p className="AppSubTittle">
           Es como 101 dalmatas pero de calculadoras.
         </p>
-        <button className="btn">
-          ir a la app
+        <button className="goBtn">
+          Ir a la app
         </button>
       </header>
       

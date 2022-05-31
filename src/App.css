@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap');
 
+:root{
+  --bg-color: #39393A;
+  --primary-color: #a1d2f6;
+}
+
 .App {
   text-align: center;
 }
@@ -10,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #39393A;
+  background-color: var(--bg-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -31,13 +36,13 @@
   font-style: italic;
 }
 
-.btn{
+.goBtn{
     margin-top: 20px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 15px 40px;
     border-radius: 100px;
-    background-color: #a1d2f6;
+    background-color: var(--primary-color);
     color: #39393A;
     width: 230px;
     font-size: 24px;
@@ -46,7 +51,7 @@
     transition: all .2s ease-in-out;
 }
 
-.btn:hover{
+.goBtn:hover{
   transform: scale(1.1);
   animation: pulse 2s infinite;
 }
