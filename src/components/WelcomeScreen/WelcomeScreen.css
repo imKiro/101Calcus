@@ -1,20 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap');
-
-:root{
-  --bg-color: #39393A;
-  --primary-color: #a1d2f6;
-}
-
 .App {
-  text-align: center;
+text-align: center;
 }
 
-.App-logo {
+.AppLogo {
   height: 30vmin;
   pointer-events: none;
 }
 
-.App-header {
+.AppHeader {
   background-color: var(--bg-color);
   min-height: 100vh;
   display: flex;
