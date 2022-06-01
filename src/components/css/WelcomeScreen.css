@@ -1,5 +1,5 @@
 .App {
-text-align: center;
+  text-align: center;
 }
 
 .AppLogo {
@@ -30,26 +30,27 @@ text-align: center;
   margin-top: 20px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 15px 40px;
+  padding: 18px 40px;
   border-radius: 100px;
   background-color: var(--primary-color);
   color: #39393A;
-  width: 230px;
-  font-size: 24px;
+  width: 240px;
+  font-size: 26px;
   border: 0px;
   transition: all .2s ease-in-out;
+  font-weight: bold;
 }
 
 .GoAppBtn:hover{
-transform: scale(1.1);
-animation: pulse 2s infinite;
+  transform: scale(1.1);
+  animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
-0% {
-  box-shadow: 0 0 0 0px #5b6f80;
-}
-100% {
-  box-shadow: 0 0 0 24px rgba(15, 12, 12, 0);
-}
+  0% {
+    box-shadow: 0 0 0 0px #5b6f80;
+  }
+  100% {
+    box-shadow: 0 0 0 24px rgba(15, 12, 12, 0);
+  }
 }
