@@ -1,37 +1,21 @@
-import React, {useState} from "react";
-import AppLogo from "./AppLogo";
-import "./css/WelcomeScreen.css";
+import React, {Component} from "react";
+import AppLogo from "./elements/AppLogo";
+import GoBtn from "./elements/GoBtn";
 
-export default function WelcomeScreen() {
-
-    const [view, setView] = useState(true);
-    console.log(view);
-
-    if (view === true){
+class WelcomeScreen extends Component{
+    render(){
         return (
-            <div className="App">
-                <header className="AppHeader">
-                    <AppLogo/>
-                    <h1 className="AppTittle">
-                        Bienvenido a 101Calcus
-                    </h1>
-                    <p className="AppSubTittle">
-                        Es como 101Dálmatas pero de calculadoras
-                    </p>
-                    <button className="GoAppBtn" onClick={()=>setView(false)}>
-                        Ir a la app
-                    </button>
-                </header>
+            <div className="AppHeader">
+                <AppLogo className="AppLogoWelcome"/>
+                <h1 className="AppTittle">
+                    Bienvenido a 101Calcus
+                </h1>
+                <p className="AppSubTittle">
+                    Es como 101Dálmatas pero de calculadoras
+                </p>
+                <GoBtn className="GoBtn" message="Ir a la app"/>
             </div>
         );
-    } else {
-        return (
-            <div>
-                <h1>The next component</h1>
-                <button className="GoAppBtn" onClick={()=>setView(true)}>
-                    Ir al inicio
-                </button>
-            </div>
-        )
     }
-}
+
+} export default WelcomeScreen;

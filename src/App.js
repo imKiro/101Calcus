@@ -1,11 +1,12 @@
 import "./App.css";
-import "./components/WelcomeScreen";
+import Topbar from "./components/Topbar";
 import WelcomeScreen from "./components/WelcomeScreen";
 
 export default function App() {
     return (
-        <div className="App">
+        <>
+            <Topbar/>
             <WelcomeScreen/>
-        </div>
-    );
+        </>
+    )
 }

@@ -1,0 +1,35 @@
+.GoBtn{
+    margin: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 40px;
+    border-radius: 100px;
+    background-color: var(--primary-color);
+    color: #39393A;
+    width: 240px;
+    font-size: 26px;
+    border: 0px;
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+}
+
+.BackBtn{
+  margin: 20px 0px 0px 0px !important;
+  height: 5rem;
+  width: 150px !important;
+  font-size: 24px !important;
+}
+
+.GoBtn:hover{
+  transform: scale(1.1);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0px #5b6f80;
+  }
+  100% {
+    box-shadow: 0 0 0 24px rgba(15, 12, 12, 0);
+  }
+}

@@ -1,0 +1,9 @@
+.MainDropdown{
+    height: 5.5rem;
+    margin: 5px 0px 0px 0px;
+    transition: transform .2s;
+}
+
+.MainDropdown:hover{
+    transform: scale(1.2);
+}

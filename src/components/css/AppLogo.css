@@ -1,0 +1,13 @@
+.AppLogoWelcome{
+    height: 10vmin;
+    pointer-events: none;
+    filter: drop-shadow(1.5px 2.5px #2ca2f6);
+    margin: 20px;
+}
+
+.AppLogoMain{
+    width: 6rem;
+    pointer-events: none;
+    filter: drop-shadow(1.5px 2.5px #2ca2f6);
+    margin: 20px 0px 20px 0px;
+}
